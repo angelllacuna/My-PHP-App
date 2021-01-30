@@ -5,7 +5,7 @@
 
 
 	$dbhost = 'localhost';
-	$dbname = 'test';
+	$dbname = 'world';
 	$dbuser = 'root';
 	$dbpass = '';
 	$mysqli = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);

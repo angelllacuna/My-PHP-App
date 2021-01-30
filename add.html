@@ -3,29 +3,51 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link href="style.css" rel="stylesheet" type="text/css" media="all">
 	<title>Add data</title>
 </head>
-<body>
-
-	<form action="add.php" method="post" name="form1">		
-		<table widht="25%" border="0">
+<body background="bgrnd.jpg">
+	<h1><center><font color='yellow' size='10px'> Country PHP Web Application</font></h1>
+	<form action="add.php" method="post" name="form1">
+	<br>
+			
+		<center><table></center>
+		
 			<tr>
-				<td>Name</td>
+				<td>ISO</td>
+				<td><input type="text" name="iso"></td>
+			</tr>
+			<tr>
+				<td>NAME</td>
 				<td><input type="text" name="name"></td>
 			</tr>
 			<tr>
-				<td>Age</td>
-				<td><input type="text" name="age"></td>
+				<td>NICENAME</td>
+				<td><input type="text" name="nicename"></td>
 			</tr>
 			<tr>
-				<td>Email</td>
-				<td><input type="text" name="email"></td>
+				<td>ISO3</td>
+				<td><input type="text" name="iso3"></td>
+			</tr>
+			<tr>
+				<td>NUMCODE</td>
+				<td><input type="text" name="numcode"></td>
+			</tr>
+			<tr>
+				<td>PHONECODE</td>
+				<td><input type="text" name="phonecode"></td>
+			</tr>
+			<tr>
+				<td>CREATED_AT</td>
+				<td><input type="text" name="created_at"></td>
 			</tr>
 			<tr>
 				<td></td>
 				<td><input type="submit" name="Submit" value="Add"></td>
 			</tr>
 		</table>
+			
+			
 
 	</form>
 	
